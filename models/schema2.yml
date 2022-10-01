@@ -1,0 +1,9 @@
+version: 2
+
+models:
+    - name: fact_trip_data
+      description : fact table of trip data 2021
+      columns:
+          - name: VendorID
+            tests:
+                - not_null

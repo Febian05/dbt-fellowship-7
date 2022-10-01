@@ -1,0 +1,10 @@
+
+version: 2
+
+models:
+    - name: source_trip_data
+      description : Source table of trip data 2021
+      columns:
+          - name: trip_distance
+            tests:
+                - not_null
